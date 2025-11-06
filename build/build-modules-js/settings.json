@@ -89,130 +89,119 @@
             "name": "bootstrap.css.grid",
             "type": "style",
             "uri": "bootstrap-grid.min.css",
-            "dependencies": [
-              "bootstrap.css"
-            ]
+            "dependencies": ["bootstrap.css"]
           },
+          {
+            "name": "bootstrap.css.reboot",
+            "type": "style",
+            "uri": "bootstrap-reboot.min.css",
+            "dependencies": ["bootstrap.css"]
+          },
+          {
+            "name": "bootstrap.css.utilities",
+            "type": "style",
+            "uri": "bootstrap-utilities.min.css",
+            "dependencies": ["bootstrap.css"]
+          },
+          {
+            "name": "bootstrap.css.rtl",
+            "type": "style",
+            "uri": "bootstrap.rtl.min.css"
+          },
+          {
+            "name": "bootstrap.css.grid.rtl",
+            "type": "style",
+            "uri": "bootstrap-grid.rtl.min.css",
+            "dependencies": ["bootstrap.css.rtl"]
+          },
+          {
+            "name": "bootstrap.css.reboot.rtl",
+            "type": "style",
+            "uri": "bootstrap-reboot.rtl.min.css",
+            "dependencies": ["bootstrap.css.rtl"]
+          },
+          {
+            "name": "bootstrap.css.utilities.rtl",
+            "type": "style",
+            "uri": "bootstrap-utilities.rtl.min.css",
+            "dependencies": ["bootstrap.css.rtl"]
+          },        
           {
             "name": "bootstrap.alert",
             "type": "script",
             "uri": "alert.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.button",
             "type": "script",
             "uri": "button.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.carousel",
             "type": "script",
             "uri": "carousel.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.collapse",
             "type": "script",
             "uri": "collapse.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.dropdown",
             "type": "script",
             "uri": "dropdown.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.modal",
             "type": "script",
             "uri": "modal.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.offcanvas",
             "type": "script",
             "uri": "offcanvas.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.popover",
             "type": "script",
             "uri": "popover.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.scrollspy",
             "type": "script",
             "uri": "scrollspy.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.tab",
             "type": "script",
             "uri": "tab.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           },
           {
             "name": "bootstrap.toast",
             "type": "script",
             "uri": "toast.min.js",
-            "dependencies": [
-              "core"
-            ],
-            "attributes": {
-              "type": "module"
-            }
+            "dependencies": ["core"],
+            "attributes": { "type": "module" }
           }
         ],
         "dependencies": [],
